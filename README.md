@@ -15,5 +15,5 @@ Operations on Skip list
 
 5.Exit
 
-User can enter the choice according to their choice.
+User can enter the choice according to their need.
 When done user can enter 5 to exit.
