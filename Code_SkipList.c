@@ -27,7 +27,7 @@ int main(void){
     int max_num;
     printf("Enter the maximum number of elements in the list: ");
     scanf("%d",&max_num);
-    MAX_LEVEL = log(max_num)/log(2);            // Maximum Level of Skip List = log2(Number of elements in the List)    
+    MAX_LEVEL = (ceil)log(max_num)/log(2);            // Maximum Level of Skip List = log2(Number of elements in the List)    
     create_skipList(sl);
 
     int k, n;
